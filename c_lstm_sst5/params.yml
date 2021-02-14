@@ -1,0 +1,8 @@
+dataset_path: dataset/sst5
+embedding_path: embed/glove.840B.300d.txt
+save_path: model
+save_embedding_path: embed/word2vec.txt
+
+batch_size: 64
+epoch: 30
+weight_decay: 0.001 # 正则化参数

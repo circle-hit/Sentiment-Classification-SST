@@ -1,0 +1,8 @@
+dataset_path: dataset/sst5
+embedding_path: embed/glove.840B.300d.txt
+save_path: model
+test_path: small
+
+batch_size: 32
+epoch: 10
+weight_decay: 0.001 # 正则化参数
